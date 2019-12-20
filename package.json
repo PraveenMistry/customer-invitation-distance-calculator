@@ -1,0 +1,25 @@
+{
+  "name": "customer-invitation-distance-calculator",
+  "version": "1.0.1",
+  "description": "Invite customer based on distance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PraveenMistry/customer-invitation-distance-calculator"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "PraveenMistry",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
