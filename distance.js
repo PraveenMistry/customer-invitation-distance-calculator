@@ -1,10 +1,4 @@
 module.exports = {
-        
-    /*
-    Formula:
-    Distance = 3963.0 * arccos[(sin(lat1) * sin(lat2)) + cos(lat1) * cos(lat2) * cos(long2 – long1)]
-    */
-
     degreesToRadians: (degrees) => {
         var pi = Math.PI;
         return degrees * (pi/180);
@@ -25,5 +19,9 @@ module.exports = {
 
         // calculate the result 
         return(c * r); 
-    }                           
+    }
+     /*
+    Formula:
+    Distance = 3963.0 * arccos[(sin(lat1) * sin(lat2)) + cos(lat1) * cos(lat2) * cos(long2 – long1)]
+    */
 }
